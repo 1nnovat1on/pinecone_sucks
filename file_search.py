@@ -61,5 +61,7 @@ def get_relevant_files(query = None):
 
     print(final_result)
 
+    return final_result
+
 # Feed final_result to the LLM
 
